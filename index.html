@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://use.fontawesome.com/338538fdc2.js"></script>
+</head>
+<body>
+	<div class="form">
+		<div class="header">
+			<div class="tittle">
+				<h1>Đăng ký</h1>
+			<span>Nhanh chóng và dễ dàng.</span>
+			</div>
+			<div class="icon">
+				<a href="#" onclick="myFunction()"><i class="fa fa-times" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<form action="">
+			<div class="form-control hoten">
+				<input type="text" name="ho" placeholder="Họ" required="">
+				<input type="text" name="ten" placeholder="Tên" required="">
+			</div>
+			<div class="form-control">
+				<input type="text" name="email" placeholder="Số di động hoặc email" required="">
+			</div>
+			<div class="form-control">
+				<input type="password" name="pass" placeholder="Mật khẩu mới" required="">
+			</div>
+			<div class="head"><a href="#">Ngày sinh</a><i class="fa fa-question-circle" aria-hidden="true"></i></div>
+			<div class="form-control select">
+				
+				<select name="" id="">
+					<option>07</option>
+				</select>
+				<select name="" id="">
+					<option value="">Tháng 5</option>
+				</select>
+				<select name="" id="">
+					<option value="">2000</option>
+				</select>
+			</div>
+			<div class="head"><a href="#">Giới tính</a><i class="fa fa-question-circle" aria-hidden="true"></i></div>
+			<div class="form-control gioitinh">
+				<div class="gt"><label for="">Nữ</label><input type="radio" name="gt"></div>
+				<div class="gt"><label for="">Nam</label><input type="radio" name="gt"></div>
+				<div class="gt">
+					<label for="">Tuỳ chỉnh</label><input type="radio" name="gt">
+				</div>
+
+			</div>
+			<p>Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="#">Điều khoản</a>, <a href="#">Chính sách dữ liệu</a> và <a href="#">Chính sách cookie</a> của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.</p>
+			<div class="button">
+				<button>Đăng ký</button>
+			</div>
+		</form>
+	</div>
+	<script>
+		function myFunction () {
+			return document.body.style.display="none";
+			// body... 
+		}
+	</script>
+</body>
+</html>
